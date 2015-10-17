@@ -1,6 +1,6 @@
 # TVOS Introduction Application
 
-Source code for the [Introduction to TVOS Tutorial](https://unicorn.tv/screencasts/introduction-to-tvos).
+Source code for the [Introduction to TVOS Tutorial](https://swift.unicorn.tv/screencasts/introduction-to-tvos).
 
 Run the client:
 
