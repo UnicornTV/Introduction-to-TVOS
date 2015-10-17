@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F40AB5E1BD1C1E500E48FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40AB5D1BD1C1E500E48FF6 /* AppDelegate.swift */; };
+		6F40AB651BD1C1E500E48FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F40AB641BD1C1E500E48FF6 /* Assets.xcassets */; };
+		6F40AB701BD1C1E500E48FF6 /* Manticore_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40AB6F1BD1C1E500E48FF6 /* Manticore_TVTests.swift */; };
+		6F40AB7B1BD1C1E500E48FF6 /* Manticore_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40AB7A1BD1C1E500E48FF6 /* Manticore_TVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F40AB6C1BD1C1E500E48FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F40AB521BD1C1E500E48FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F40AB591BD1C1E500E48FF6;
+			remoteInfo = "Manticore TV";
+		};
+		6F40AB771BD1C1E500E48FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F40AB521BD1C1E500E48FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F40AB591BD1C1E500E48FF6;
+			remoteInfo = "Manticore TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F40AB5A1BD1C1E500E48FF6 /* Manticore TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manticore TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F40AB5D1BD1C1E500E48FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F40AB641BD1C1E500E48FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F40AB661BD1C1E500E48FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F40AB6B1BD1C1E500E48FF6 /* Manticore TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manticore TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F40AB6F1BD1C1E500E48FF6 /* Manticore_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manticore_TVTests.swift; sourceTree = "<group>"; };
+		6F40AB711BD1C1E500E48FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F40AB761BD1C1E500E48FF6 /* Manticore TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manticore TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F40AB7A1BD1C1E500E48FF6 /* Manticore_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manticore_TVUITests.swift; sourceTree = "<group>"; };
+		6F40AB7C1BD1C1E500E48FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F40AB571BD1C1E500E48FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F40AB681BD1C1E500E48FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F40AB731BD1C1E500E48FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F40AB511BD1C1E500E48FF6 = {
+			isa = PBXGroup;
+			children = (
+				6F40AB5C1BD1C1E500E48FF6 /* Manticore TV */,
+				6F40AB6E1BD1C1E500E48FF6 /* Manticore TVTests */,
+				6F40AB791BD1C1E500E48FF6 /* Manticore TVUITests */,
+				6F40AB5B1BD1C1E500E48FF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F40AB5B1BD1C1E500E48FF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F40AB5A1BD1C1E500E48FF6 /* Manticore TV.app */,
+				6F40AB6B1BD1C1E500E48FF6 /* Manticore TVTests.xctest */,
+				6F40AB761BD1C1E500E48FF6 /* Manticore TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F40AB5C1BD1C1E500E48FF6 /* Manticore TV */ = {
+			isa = PBXGroup;
+			children = (
+				6F40AB5D1BD1C1E500E48FF6 /* AppDelegate.swift */,
+				6F40AB641BD1C1E500E48FF6 /* Assets.xcassets */,
+				6F40AB661BD1C1E500E48FF6 /* Info.plist */,
+			);
+			path = "Manticore TV";
+			sourceTree = "<group>";
+		};
+		6F40AB6E1BD1C1E500E48FF6 /* Manticore TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F40AB6F1BD1C1E500E48FF6 /* Manticore_TVTests.swift */,
+				6F40AB711BD1C1E500E48FF6 /* Info.plist */,
+			);
+			path = "Manticore TVTests";
+			sourceTree = "<group>";
+		};
+		6F40AB791BD1C1E500E48FF6 /* Manticore TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F40AB7A1BD1C1E500E48FF6 /* Manticore_TVUITests.swift */,
+				6F40AB7C1BD1C1E500E48FF6 /* Info.plist */,
+			);
+			path = "Manticore TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F40AB591BD1C1E500E48FF6 /* Manticore TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F40AB7F1BD1C1E500E48FF6 /* Build configuration list for PBXNativeTarget "Manticore TV" */;
+			buildPhases = (
+				6F40AB561BD1C1E500E48FF6 /* Sources */,
+				6F40AB571BD1C1E500E48FF6 /* Frameworks */,
+				6F40AB581BD1C1E500E48FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Manticore TV";
+			productName = "Manticore TV";
+			productReference = 6F40AB5A1BD1C1E500E48FF6 /* Manticore TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F40AB6A1BD1C1E500E48FF6 /* Manticore TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F40AB821BD1C1E500E48FF6 /* Build configuration list for PBXNativeTarget "Manticore TVTests" */;
+			buildPhases = (
+				6F40AB671BD1C1E500E48FF6 /* Sources */,
+				6F40AB681BD1C1E500E48FF6 /* Frameworks */,
+				6F40AB691BD1C1E500E48FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F40AB6D1BD1C1E500E48FF6 /* PBXTargetDependency */,
+			);
+			name = "Manticore TVTests";
+			productName = "Manticore TVTests";
+			productReference = 6F40AB6B1BD1C1E500E48FF6 /* Manticore TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F40AB751BD1C1E500E48FF6 /* Manticore TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F40AB851BD1C1E500E48FF6 /* Build configuration list for PBXNativeTarget "Manticore TVUITests" */;
+			buildPhases = (
+				6F40AB721BD1C1E500E48FF6 /* Sources */,
+				6F40AB731BD1C1E500E48FF6 /* Frameworks */,
+				6F40AB741BD1C1E500E48FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F40AB781BD1C1E500E48FF6 /* PBXTargetDependency */,
+			);
+			name = "Manticore TVUITests";
+			productName = "Manticore TVUITests";
+			productReference = 6F40AB761BD1C1E500E48FF6 /* Manticore TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F40AB521BD1C1E500E48FF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Unicorn;
+				TargetAttributes = {
+					6F40AB591BD1C1E500E48FF6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6F40AB6A1BD1C1E500E48FF6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6F40AB591BD1C1E500E48FF6;
+					};
+					6F40AB751BD1C1E500E48FF6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6F40AB591BD1C1E500E48FF6;
+					};
+				};
+			};
+			buildConfigurationList = 6F40AB551BD1C1E500E48FF6 /* Build configuration list for PBXProject "Manticore TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F40AB511BD1C1E500E48FF6;
+			productRefGroup = 6F40AB5B1BD1C1E500E48FF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F40AB591BD1C1E500E48FF6 /* Manticore TV */,
+				6F40AB6A1BD1C1E500E48FF6 /* Manticore TVTests */,
+				6F40AB751BD1C1E500E48FF6 /* Manticore TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F40AB581BD1C1E500E48FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F40AB651BD1C1E500E48FF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F40AB691BD1C1E500E48FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F40AB741BD1C1E500E48FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F40AB561BD1C1E500E48FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F40AB5E1BD1C1E500E48FF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F40AB671BD1C1E500E48FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F40AB701BD1C1E500E48FF6 /* Manticore_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F40AB721BD1C1E500E48FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F40AB7B1BD1C1E500E48FF6 /* Manticore_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F40AB6D1BD1C1E500E48FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F40AB591BD1C1E500E48FF6 /* Manticore TV */;
+			targetProxy = 6F40AB6C1BD1C1E500E48FF6 /* PBXContainerItemProxy */;
+		};
+		6F40AB781BD1C1E500E48FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F40AB591BD1C1E500E48FF6 /* Manticore TV */;
+			targetProxy = 6F40AB771BD1C1E500E48FF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F40AB7D1BD1C1E500E48FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		6F40AB7E1BD1C1E500E48FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F40AB801BD1C1E500E48FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Manticore TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unicorn.Manticore-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F40AB811BD1C1E500E48FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Manticore TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unicorn.Manticore-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F40AB831BD1C1E500E48FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Manticore TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unicorn.Manticore-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manticore TV.app/Manticore TV";
+			};
+			name = Debug;
+		};
+		6F40AB841BD1C1E500E48FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Manticore TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unicorn.Manticore-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manticore TV.app/Manticore TV";
+			};
+			name = Release;
+		};
+		6F40AB861BD1C1E500E48FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Manticore TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unicorn.Manticore-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Manticore TV";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6F40AB871BD1C1E500E48FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Manticore TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unicorn.Manticore-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Manticore TV";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F40AB551BD1C1E500E48FF6 /* Build configuration list for PBXProject "Manticore TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F40AB7D1BD1C1E500E48FF6 /* Debug */,
+				6F40AB7E1BD1C1E500E48FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F40AB7F1BD1C1E500E48FF6 /* Build configuration list for PBXNativeTarget "Manticore TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F40AB801BD1C1E500E48FF6 /* Debug */,
+				6F40AB811BD1C1E500E48FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F40AB821BD1C1E500E48FF6 /* Build configuration list for PBXNativeTarget "Manticore TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F40AB831BD1C1E500E48FF6 /* Debug */,
+				6F40AB841BD1C1E500E48FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F40AB851BD1C1E500E48FF6 /* Build configuration list for PBXNativeTarget "Manticore TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F40AB861BD1C1E500E48FF6 /* Debug */,
+				6F40AB871BD1C1E500E48FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F40AB521BD1C1E500E48FF6 /* Project object */;
+}
